@@ -1,8 +1,12 @@
 # n8n
 
-pruebas para ver si funciona correctamente
+## Pruebas de integración
 
---------
-testing
+Este archivo se utiliza para validar el correcto funcionamiento del flujo de trabajo relacionado con las Pull Requests y la automatización del repositorio.
 
-prueba 25
+### Cambios realizados
+- Actualización del contenido del README.
+- Verificación del proceso de revisión automática.
+- Validación del flujo de integración.
+
+> **Nota:** Este cambio tiene fines de prueba y no afecta la funcionalidad del proyecto.
