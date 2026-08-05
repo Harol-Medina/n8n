@@ -697,6 +697,150 @@ graph TD
 
 ---
 
+## Mi experiencia tecnologica aplicada al proyecto
+
+```mermaid
+graph TD
+    subgraph Agentes
+        A1[LangChain]
+        A2[LangGraph]
+        A3[ReAct]
+        A4[Tool Calling]
+    end
+
+    subgraph IA
+        B1[LLM - Gemini / Cohere / Groq / Claude]
+        B2[Prompt Engineering]
+        B3[RAG]
+        B4[Embeddings]
+    end
+
+    subgraph Automatizacion
+        C1[n8n]
+        C2[APIs]
+        C3[Webhooks]
+    end
+
+    subgraph Datos
+        D1[Python]
+        D2[SQL / MySQL]
+        D3[Pandas]
+        D4[FAISS / ChromaDB / pgvector]
+    end
+
+    subgraph Integracion
+        E1[FastAPI]
+        E2[APIs REST]
+        E3[GitHub / Slack / Gmail / Telegram]
+    end
+
+    subgraph QA
+        F1[pytest]
+        F2[Validaciones automatizadas]
+        F3[63 tests en Knowledge Agent]
+    end
+```
+
+---
+---
+
+## Como conectaria todo esto con el proyecto
+
+Mi propuesta seria trabajar en **cuatro etapas**:
+
+```mermaid
+graph LR
+    A[1. IDENTIFICAR] --> B[2. AUTOMATIZAR]
+    B --> C[3. VALIDAR]
+    C --> D[4. MEDIR]
+```
+
+### 1. Identificar
+
+Encontrar procesos manuales y repetitivos en el equipo:
+
+- ¿Que hace actualmente la persona?
+- ¿Que pasos sigue?
+- ¿Cuanto tiempo toma?
+- ¿Donde ocurren errores?
+- ¿Que es repetitivo?
+
+### 2. Automatizar
+
+Construir un flujo utilizando:
+
+**Agente + IA + herramientas + APIs**
+
+Conectando las herramientas del equipo (GitHub, correo, bases de datos, Jira, Postman) con agentes capaces de ejecutar tareas.
+
+### 3. Validar
+
+Comprobar:
+
+- ¿El resultado es correcto?
+- ¿Los errores se manejan bien?
+- ¿La calidad se mantiene o mejora?
+- ¿Es seguro?
+- ¿Que pasa con casos excepcionales?
+
+### 4. Medir
+
+Comparar **Manual vs. IA** y obtener datos reales:
+
+| Indicador | Manual | Con IA | Resultado |
+|-----------|--------|--------|-----------|
+| Tiempo | Medido | Medido | Ahorro % |
+| Errores | Registrados | Registrados | Reduccion % |
+| Retrabajo | Registrado | Registrado | Eliminacion % |
+| Casos procesados | Medidos | Medidos | Incremento % |
+| Calidad | Evaluada | Evaluada | Mantenida o mejorada |
+
+---
+---
+
+## Lo que puedo aportar
+
+| Area | Aplicacion concreta |
+|------|---------------------|
+| **Agentes IA** | Construir agentes autonomos que ejecuten tareas (como mis 9 proyectos lo demuestran) |
+| **Automatizacion** | Reemplazar procesos manuales con flujos inteligentes en n8n o Python |
+| **RAG** | Chatbots que consultan documentacion interna real de la empresa |
+| **n8n** | Workflows conectando GitHub, correo, bases de datos, Slack, IA |
+| **Python** | Orquestacion, APIs, procesamiento de datos, ML |
+| **Integracion de APIs** | Conectar cualquier servicio con agentes IA (MCP) |
+| **QA** | Validar que las automatizaciones funcionen correctamente (63 tests en mi proyecto) |
+| **Medicion** | Demostrar con datos cuanto mejora el proceso vs manual |
+
+Mi objetivo: utilizar estas tecnologias para **resolver procesos reales**, no solamente desarrollar demostraciones de IA.
+
+---
+---
+
+## Cierre
+
+### Mi enfoque
+
+> Automatizar procesos manuales utilizando IA, validar que los resultados sean correctos y medir objetivamente cuanto mejora el proceso.
+
+```mermaid
+graph LR
+    A[Proceso Manual] -->|Automatizacion con IA| B[Proceso Asistido por IA]
+    B -->|Medicion| C[Resultados Demostrados]
+```
+
+### Resultados esperados
+
+| Indicador | Direccion |
+|-----------|-----------|
+| Tiempo | ↓ Reducido |
+| Trabajo repetitivo | ↓ Eliminado |
+| Retrabajo | ↓ Minimizado |
+| Productividad | ↑ Aumentada |
+| Calidad | = Mantenida o ↑ Mejorada |
+
+---
+---
+
 ## Certificaciones que respaldan estos proyectos
 
 | Certificacion | Entidad | Ano |
